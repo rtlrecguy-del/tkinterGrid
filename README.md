@@ -9,5 +9,5 @@ At least install pip install python-vlc python-mpv.
 Run code by running radio.sh or tv.sh.   If it has proper permissions it should open the termux-x11 app with the python-tkinter 
 program.  Read code before use for any other buttons that should be used or mapped to remote.   
 Context menu button generally closes app and direction changes mute.
-A couple other buttons are needed mapped.   Read code to determine. 
+A couple other buttons are needed mapped.   Read code to determine. Believe press 2 key (map to key on controller) as it moves the focus from the dropdown to the gridview.  This is just a work around because it seems android only sees context menu and arrow keys from the remove.
 
