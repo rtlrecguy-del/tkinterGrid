@@ -8,6 +8,6 @@ At least install pip install python-vlc python-mpv.
 
 Run code by running radio.sh or tv.sh.   If it has proper permissions it should open the termux-x11 app.
 
-To exit press left three times consecutively.    Place the location on your filesystem of m3u or radio url in the correct 
+To exit press left three times consecutively.    Place the location on your filesystem of tv url file with four urls or radio url in the correct 
 variable in code.
 
