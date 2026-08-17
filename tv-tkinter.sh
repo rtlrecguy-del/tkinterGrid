@@ -9,20 +9,14 @@ SPECIFIED_FOLDER = "/data/data/com.termux/files/home/play"
 
 class VLCQuadrantsApp:
     def __init__(self, root):
-        self.root = root
-        self.root.bind('<XF86MenuKB>', self.on_z)
-        self.root.bind('2', self.on_y)
-        self.root.bind('u', self.load_urls)
+        self.root = rootself.root.bind("<Double-Left>", self.on_z)
+        self.root.bind('<XF86MenuKB>', self.load_urls)
         self.root.title("VLC 4-Quadrant Grid")
         self.root.geometry("1920x1080")
         self.root.bind("<Up>", self.toggle_mute1)
         self.root.bind("<Down>", self.toggle_mute2)
         self.root.bind("<Left>", self.toggle_mute3)
         self.root.bind("<Right>", self.toggle_mute4)
-        self.root.bind("a", self.toggle_speed1)
-        self.root.bind("s", self.toggle_speed2)
-        self.root.bind("d", self.toggle_speed3)
-        self.root.bind("f", self.toggle_speed4)
 
         vlc_args = [
             "--adaptive-logic=lowest",
@@ -86,14 +80,6 @@ class VLCQuadrantsApp:
                 else:
                     self.players[i].stop()
         self.root.focus_force()
-    def toggle_speed1(self, event):
-        self.players[0].set_rate(0.8)
-    def toggle_speed2(self, event):
-        self.players[1].set_rate(0.8)
-    def toggle_speed3(self, event):
-        self.players[2].set_rate(0.8)
-    def toggle_speed4(self, event):
-        self.players[3].set_rate(0.8)
 
 
     def toggle_mute1(self, event):
