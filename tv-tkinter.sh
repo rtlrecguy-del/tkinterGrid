@@ -85,6 +85,7 @@ class VLCQuadrantsApp:
                     self.players[i].play()
                 else:
                     self.players[i].stop()
+        self.root.focus_force()
     def toggle_speed1(self, event):
         self.players[0].set_rate(0.8)
     def toggle_speed2(self, event):
