@@ -6,3 +6,8 @@ On android termux and termux-x11-nightly is installed.
 Inside termux at least pkg install x11-repo.  pkg install termux-x11-nightly mpv vlc python-pip python-tkinter virglrenderer-android is also needed.
 At least install pip install python-vlc python-mpv.
 
+Run code by running radio.sh or tv.sh.   If it has proper permissions it should open the termux-x11 app with the python-tkinter 
+program.  Read code before use for any other buttons that should be used or mapped to remote.   
+Context menu button generally closes app and direction changes mute.
+A couple other buttons are needed mapped.   Read code to determine. 
+
