@@ -6,10 +6,10 @@ from tkinter import ttk
 import mpv
 
 # 1. Define your 4 stream or file URLs here
-URL_1 = "http://opml.radiotime.com/Tune.ashx?id=s20407"
-URL_2 = "http://opml.radiotime.com/Tune.ashx?id=s297990"
-URL_3 = "http://opml.radiotime.com/Tune.ashx?id=s20431"
-URL_4 = "http://opml.radiotime.com/Tune.ashx?id=s27421"
+URL_1 = ""
+URL_2 = ""
+URL_3 = ""
+URL_4 = ""
 
 class MultiPlayerGrid:
     def __init__(self, root):
