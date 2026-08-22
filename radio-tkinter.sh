@@ -16,7 +16,7 @@ class MultiPlayerGrid:
         self.root = root
         self.root.title("4-Quadrant MPV Player Grid")
         self.root.geometry("1920x1080")
-        self.root.bind('<XF86MenuKB>', self.on_z)
+        self.root.bind('<Triple-Left>', self.on_z)
         # Configure the grid to expand equally
         self.label = tk.Label(self.root, text="Up=CNN,Down=MSNBC,Left=Fox News,Right=NPR", font=("Arial", 24, "bold"), bg="black", fg="white")
         self.label.pack(side=tk.TOP, fill=tk.X)
