@@ -3,7 +3,8 @@ Python Tkinter GridView Player for Linux/Termux
 The arrow keys or remote control mutes and unmutes windows based on which direction is clicked.   It uses three consecutive left clicks to close application.
 On Android termux and termux-x11-nightly needs installed.
 Inside Termux at least:
-pkg install termux-x11-nightly mpv vlc python-pip python-tkinter virglrenderer-android
+pkg install x11-repo
+pkg install termux-x11-nightly mpv-x vlc python-pip python-tkinter virglrenderer-android
 pip install python-vlc python-mpv.
 
 Run code by running radio.sh or tv.sh.   If it has proper permissions it should open the termux-x11 app.
