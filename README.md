@@ -8,6 +8,11 @@ At least install pip install python-vlc python-mpv.
 
 Run code by running radio.sh or tv.sh.   If it has proper permissions it should open the termux-x11 app.
 
-To exit press left three times consecutively.    Place the location on your filesystem of tv url file with four urls or radio url in the correct 
-variable in code.
+To exit press left three times consecutively.    Place the location on your filesystem of tv url file with four urls or radio url in the correct variables in code.
+
+
+Web Sites I have used for urls but am not affiliated with below:
+https://gist.github.com/xndc/c732204e274743204f1f.
+https://github.com/kineticman/FastChannels
+
 
