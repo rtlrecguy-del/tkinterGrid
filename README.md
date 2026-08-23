@@ -11,7 +11,7 @@ Run code by running radio.sh or tv.sh.   If it has proper permissions it should 
 To exit press left three times consecutively.    Place the location on your filesystem of tv url file with four urls or radio url in the correct variables in code.
 
 
-Web Sites I have used for urls but am not affiliated with below:</ br>
+Web Sites I have used for urls but am not affiliated with:
 https://gist.github.com/xndc/c732204e274743204f1f.
 https://github.com/kineticman/FastChannels
 
