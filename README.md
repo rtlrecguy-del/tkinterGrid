@@ -8,7 +8,7 @@ pip install python-vlc python-mpv.
 
 Run code by running radio.sh or tv.sh.   If it has proper permissions it should open the termux-x11 app.
 
-To exit press left three times consecutively.    Add four radio urls to radio-tkinter.sh script.   Place text file in appropriate place on file system specified in tv-tkinter script with four urls.
+Add four radio urls to radio-tkinter.sh script.   Place text file in appropriate place on file system specified in tv-tkinter script with four urls.
 
 
 Web Sites I have used for urls but am not affiliated with:
