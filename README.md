@@ -24,5 +24,5 @@ Run radio-tkinter.sh and tv-tkinter.sh file directly.<br>
 Adjust adaptive resolution in code appropriately to power your computer can handle.<b>
 
 
-Tested on Nvidia Shield, Fire TV cube third generation, alpine and debian linux.
+
 
