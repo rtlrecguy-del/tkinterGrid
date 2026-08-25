@@ -16,8 +16,6 @@ Web Sites I have used for urls but am not affiliated with:<br>
 https://gist.github.com/xndc/c732204e274743204f1f.<br>
 https://github.com/kineticman/FastChannels<br>
 
-If it is run on just standard linux libmpv needs installed.
-
 Standard Linux change the directory of location of file with urls.<br>
 Install libmpv python3-pip python3-tkinter vlc mpv.<br>
 pip install python-vlc python-mpv.
