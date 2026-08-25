@@ -18,3 +18,9 @@ https://github.com/kineticman/FastChannels<br>
 
 If it is run on just standard linux libmpv needs installed.
 
+Standard Linux change the directory of location of file with urls.<br>
+Install libmpv python3-pip python3-tkinter vlc mpv.<br>
+Install anything else needed.<br>
+Run radio.tkinter.sh and tv-tkinter.sh file directly.<br>
+Adjust addaptive resolution in code appropriately to power your computer can handle.<b>
+
