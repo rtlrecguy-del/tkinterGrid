@@ -21,7 +21,7 @@ Install libmpv python3-pip python3-tkinter vlc mpv.<br>
 pip install python-vlc python-mpv.
 Install anything else needed.<br>
 Run radio-tkinter.sh and tv-tkinter.sh file directly.<br>
-Adjust adaptive resolution in code appropriately to power your computer can handle.<b>
+Adjust adaptive resolution in code appropriately to power your computer can handle.<br>
 If you use the check.sh or checkbox.sh to parse an m3u file and to create a txt file with four urls press 1 key to exit when done.
 
 
