@@ -11,6 +11,7 @@ class VLCQuadrantsApp:
     def __init__(self, root):
         self.root = root
         self.root.bind("<Triple-Left>", self.on_z)
+        self.root.bind("<Triple-Right>", self.on_mute)
         self.root.title("VLC 4-Quadrant Grid")
         self.root.geometry("1920x1080")
         self.root.bind("<Up>", self.toggle_mute1)
@@ -63,7 +64,11 @@ class VLCQuadrantsApp:
                 else:
                     self.players[i].stop()
         self.root.focus_force()
-
+    def on_mute(self, event):
+        self.players[0].audio_set_mute(True)
+        self.players[1].audio_set_mute(True)
+        self.players[2].audio_set_mute(True)
+        self.players[3].audio_set_mute(True)
 
     def toggle_mute1(self, event):
         self.players[0].audio_set_mute(False)
